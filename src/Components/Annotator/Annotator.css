@@ -1,0 +1,58 @@
+.annotator_container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.attributes_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.attribute_container {
+  margin-right: 5px;
+  padding: 7px;
+  border-width: 2px;
+  border-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.attribute_container:hover {
+  font-weight: bold;
+}
+
+.tokens_container {
+  display: inline;
+  background-color:#eee;
+  padding: 10px;
+}
+
+.token_container {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.token_container:hover {
+  font-weight: bold;
+}
+
+.token_attr_container {
+  font-size: 10px;
+  color: black;
+}
+
+.labels_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.label_field_container {
+  width: 120px;
+}
